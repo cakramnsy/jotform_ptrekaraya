@@ -458,6 +458,25 @@ body,
     box-shadow : none !important;
 }
     /* Injected CSS Code */
+
+    /* Remove the thin grey line under each field */
+.form-line {
+    border-bottom: none !important;
+}
+
+/* Sometimes Jotform uses form-line + form-line-active */
+.form-line,
+.form-line-active {
+    border: none !important;
+}
+
+/* Remove section dividers if any */
+.form-section,
+.form-section-closed {
+    border: none !important;
+    box-shadow: none !important;
+}
+
 </style>
 
 <script>window.enableEventObserver=true</script>
